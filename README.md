@@ -66,6 +66,8 @@ pnpm run dev
   
 ## 环境变量
 
+在worker的配置页面 binding下面手动修改，放在github文件里容易泄密
+
 在 `wrangler.toml` 文件中设置以下程序变量：
 
 - `API_KEY`: API 密钥，用于身份验证
