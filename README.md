@@ -67,6 +67,8 @@ pnpm run dev
 ## 环境变量
 
 在worker的配置页面 binding下面手动修改，放在github文件里容易泄密
+![image](https://github.com/user-attachments/assets/cae5c897-e8be-4476-9fdd-12a7fbc7d0bc)
+但这里配置以后我发现又没了，还是尝试在github repo的配置里设置 env
 
 在 `wrangler.toml` 文件中设置以下程序变量：
 
