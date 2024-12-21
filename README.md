@@ -72,14 +72,14 @@ pnpm run dev
 
 在 `wrangler.toml` 文件中设置以下程序变量：
 
-- `API_KEY`: API 密钥，用于身份验证
+- `API_KEY`: cloudflare API 密钥，用于身份验证
 - `CF_ACCOUNT_LIST`: Cloudflare 账户列表，JSON 格式
 - `CF_TRANSLATE_MODEL`: 翻译模型 ID
 - `CF_IS_TRANSLATE`: 是否启用翻译功能
 - `USE_EXTERNAL_API`: 是否使用外部 API
 - `EXTERNAL_API`: 外部 API 地址
 - `EXTERNAL_MODEL`: 外部模型 ID
-- `EXTERNAL_API_KEY`: 外部 API 密钥
+- `EXTERNAL_API_KEY`: 调用部署的 API时需要的 密钥
 - `FLUX_NUM_STEPS`: Flux 模型的步数
 - `CUSTOMER_MODEL_MAP`: 模型映射，JSON 格式
 
